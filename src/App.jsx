@@ -84,12 +84,18 @@ function App() {
                     <TableCell>{item.mandoDeCampo === "Casa" ? <Home /> : <Plane />}</TableCell>
                     <TableCell>{item.local}</TableCell>
                     <TableCell>
-                      <select onChange={handleSelectPlanejado}>
-                        <option value="" disabled selected></option>
-                        <option value="3">Vitória</option>
-                        <option value="1">Empate</option>
-                        <option value="0">Derrota</option>
-                      </select>
+                      <Select onValueChange={(value) => handleSelectPlanejado({ target: { value } })}>
+                        <SelectTrigger>
+                          <SelectValue placeholder="Selecione seu time" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectGroup>
+                            <SelectItem value="3">Vitória</SelectItem>
+                            <SelectItem value="1">Empate</SelectItem>
+                            <SelectItem value="0">Derrota</SelectItem>
+                          </SelectGroup>
+                        </SelectContent>
+                      </Select>
                     </TableCell>
                     <TableCell>
                       <select onChange={handleSelectEfetivo}>
