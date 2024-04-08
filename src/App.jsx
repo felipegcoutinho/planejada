@@ -64,7 +64,6 @@ function App() {
         <div className="w-1/2">
           <p>Planejado: {pontuacaoPlanejado}</p>
           <p>Efetivo: {pontuacaoEfetivo}</p>
-
           <p>1º Turno</p>
           <Table>
             <TableHeader>
@@ -98,12 +97,18 @@ function App() {
                       </Select>
                     </TableCell>
                     <TableCell>
-                      <select onChange={handleSelectEfetivo}>
-                        <option value="" disabled selected></option>
-                        <option value="3">Vitória</option>
-                        <option value="1">Empate</option>
-                        <option value="0">Derrota</option>
-                      </select>
+                      <Select onValueChange={(value) => handleSelectEfetivo({ target: { value } })}>
+                        <SelectTrigger>
+                          <SelectValue placeholder="Selecione seu time" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectGroup>
+                            <SelectItem value="3">Vitória</SelectItem>
+                            <SelectItem value="1">Empate</SelectItem>
+                            <SelectItem value="0">Derrota</SelectItem>
+                          </SelectGroup>
+                        </SelectContent>
+                      </Select>
                     </TableCell>
                   </TableRow>
                 ))}
@@ -112,8 +117,58 @@ function App() {
         </div>
 
         <div className="w-1/2">
+          <p>Planejado: {pontuacaoPlanejado}</p>
+          <p>Efetivo: {pontuacaoEfetivo}</p>
           <p>2º Turno</p>
-          {/* Aqui você pode adicionar a lógica para o segundo turno, se necessário */}
+          <Table>
+            <TableHeader>
+              <TableRow>
+                <TableHead>Time</TableHead>
+                <TableHead>Mando</TableHead>
+                <TableHead>Local</TableHead>
+                <TableHead>Planejado</TableHead>
+                <TableHead>Efetivo</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {primeiroTurno &&
+                primeiroTurno.map((item) => (
+                  <TableRow key={item.id}>
+                    <TableCell className="font-bold">{item.adversario}</TableCell>
+                    <TableCell>{item.mandoDeCampo === "Casa" ? <Home /> : <Plane />}</TableCell>
+                    <TableCell>{item.local}</TableCell>
+                    <TableCell>
+                      <Select onValueChange={(value) => handleSelectPlanejado({ target: { value } })}>
+                        <SelectTrigger>
+                          <SelectValue placeholder="Selecione seu time" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectGroup>
+                            <SelectItem value="3">Vitória</SelectItem>
+                            <SelectItem value="1">Empate</SelectItem>
+                            <SelectItem value="0">Derrota</SelectItem>
+                          </SelectGroup>
+                        </SelectContent>
+                      </Select>
+                    </TableCell>
+                    <TableCell>
+                      <Select onValueChange={(value) => handleSelectEfetivo({ target: { value } })}>
+                        <SelectTrigger>
+                          <SelectValue placeholder="Selecione seu time" />
+                        </SelectTrigger>
+                        <SelectContent>
+                          <SelectGroup>
+                            <SelectItem value="3">Vitória</SelectItem>
+                            <SelectItem value="1">Empate</SelectItem>
+                            <SelectItem value="0">Derrota</SelectItem>
+                          </SelectGroup>
+                        </SelectContent>
+                      </Select>
+                    </TableCell>
+                  </TableRow>
+                ))}
+            </TableBody>
+          </Table>
         </div>
       </div>
       <div className="mt-4">
