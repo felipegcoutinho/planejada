@@ -4,7 +4,7 @@ export const serie_a = [
   { id: 3, nome: "Atlético-MG" },
   { id: 4, nome: "Bahia" },
   { id: 5, nome: "Botafogo" },
-  { id: 6, nome: "Bragantino" },
+  { id: 6, nome: "RB Bragantino" },
   { id: 7, nome: "Corinthians" },
   { id: 8, nome: "Criciúma" },
   { id: 9, nome: "Cruzeiro" },
