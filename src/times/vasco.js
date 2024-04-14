@@ -210,7 +210,7 @@ export const segundo_turno_vasco = [
     id: 16,
     adversario: "Corinthians",
     mandoDeCampo: "Fora",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 17,

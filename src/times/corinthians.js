@@ -4,7 +4,7 @@ export const primeiro_turno_corinthians = [
     id: 1,
     adversario: "Atlético-MG",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 2,
@@ -22,13 +22,13 @@ export const primeiro_turno_corinthians = [
     id: 4,
     adversario: "Fluminense",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 5,
     adversario: "Fortaleza",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 6,
@@ -40,7 +40,7 @@ export const primeiro_turno_corinthians = [
     id: 7,
     adversario: "Botafogo",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 8,
@@ -52,7 +52,7 @@ export const primeiro_turno_corinthians = [
     id: 9,
     adversario: "São Paulo",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 10,
@@ -70,7 +70,7 @@ export const primeiro_turno_corinthians = [
     id: 12,
     adversario: "Cuiabá",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 13,
@@ -82,7 +82,7 @@ export const primeiro_turno_corinthians = [
     id: 14,
     adversario: "Vitória",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 15,
@@ -100,7 +100,7 @@ export const primeiro_turno_corinthians = [
     id: 17,
     adversario: "Criciúma",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 18,
@@ -112,7 +112,7 @@ export const primeiro_turno_corinthians = [
     id: 19,
     adversario: "Grêmio",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
 ];
 
@@ -128,13 +128,13 @@ export const segundo_turno_corinthians = [
     id: 21,
     adversario: "Juventude",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 22,
     adversario: "RB Bragantino",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 23,
@@ -152,7 +152,7 @@ export const segundo_turno_corinthians = [
     id: 25,
     adversario: "Flamengo",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 26,
@@ -164,7 +164,7 @@ export const segundo_turno_corinthians = [
     id: 27,
     adversario: "Atlético-GO",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 28,
@@ -176,13 +176,13 @@ export const segundo_turno_corinthians = [
     id: 29,
     adversario: "Internacional",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 30,
     adversario: "Athletico-PR",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 31,
@@ -194,7 +194,7 @@ export const segundo_turno_corinthians = [
     id: 32,
     adversario: "Palmeiras",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 33,
@@ -206,13 +206,13 @@ export const segundo_turno_corinthians = [
     id: 34,
     adversario: "Cruzeiro",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 35,
     adversario: "Vasco",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 36,
@@ -224,7 +224,7 @@ export const segundo_turno_corinthians = [
     id: 37,
     adversario: "Bahia",
     mandoDeCampo: "Casa",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 38,

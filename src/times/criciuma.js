@@ -100,7 +100,7 @@ export const primeiro_turno_criciuma = [
     id: 17,
     adversario: "Corinthians",
     mandoDeCampo: "Fora",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 18,

@@ -164,7 +164,7 @@ export const segundo_turno_atletico_go = [
     id: 27,
     adversario: "Corinthians",
     mandoDeCampo: "Fora",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 28,

@@ -66,11 +66,15 @@ function App() {
     }
   };
 
-  const calcularAproveitamento = (planejado, efetivo) => {
-    const totalPlanejado = Object.values(planejado).reduce((total, pontuacao) => total + pontuacao, 0);
+  const calcularAproveitamento = (efetivo, pontosPossiveis) => {
     const totalEfetivo = Object.values(efetivo).reduce((total, pontuacao) => total + pontuacao, 0);
-    if (totalPlanejado === 0) return "0%";
-    return ((totalEfetivo / totalPlanejado) * 100).toFixed(2) + "%";
+    const totalPontosPossiveis = Object.values(pontosPossiveis).reduce((total, pontuacao) => total + pontuacao, 0);
+
+    if (totalPontosPossiveis === 0) return "0%";
+
+    const aproveitamento = (totalEfetivo / totalPontosPossiveis) * 100;
+
+    return aproveitamento.toFixed(2) + "%";
   };
 
   const primeiroTurno = primeiroTurnoPorTime[selectedTeam];

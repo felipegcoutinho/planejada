@@ -122,7 +122,7 @@ export const segundo_turno_athletico = [
     id: 20,
     adversario: "Cuiabá",
     mandoDeCampo: "Fora",
-    local: "Arena Pantanal, MT",
+    local: "Arena Pantana, MT",
   },
   {
     id: 21,
@@ -182,7 +182,7 @@ export const segundo_turno_athletico = [
     id: 30,
     adversario: "Corinthians",
     mandoDeCampo: "Fora",
-    local: "Arena Corinthians, SP",
+    local: "Neo Química Arena, SP",
   },
   {
     id: 31,
