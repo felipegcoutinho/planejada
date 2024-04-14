@@ -106,7 +106,7 @@ export const primeiro_turno_fluminense = [
     id: 18,
     adversario: "Cuiabá",
     mandoDeCampo: "Fora",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 19,

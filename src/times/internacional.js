@@ -40,7 +40,7 @@ export const primeiro_turno_internacional = [
     id: 7,
     adversario: "Cuiabá",
     mandoDeCampo: "Fora",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 8,

@@ -28,7 +28,7 @@ export const primeiro_turno_palmeiras = [
     id: 5,
     adversario: "Cuiabá",
     mandoDeCampo: "Fora",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 6,
@@ -174,7 +174,7 @@ export const segundo_turno_palmeiras = [
   },
   {
     id: 29,
-    adversario: "Bragantino",
+    adversario: "RB Bragantino",
     mandoDeCampo: "Fora",
     local: "Nabi Abi Chedid, SP",
   },

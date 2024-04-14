@@ -64,7 +64,7 @@ export const primeiro_turno_atletico_go = [
     id: 11,
     adversario: "Cuiabá",
     mandoDeCampo: "Fora",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 12,

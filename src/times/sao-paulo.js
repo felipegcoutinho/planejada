@@ -176,7 +176,7 @@ export const segundo_turno_sao_paulo = [
     id: 29,
     adversario: "Cuiabá",
     mandoDeCampo: "Fora",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 30,

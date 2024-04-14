@@ -132,7 +132,7 @@ export const segundo_turno_corinthians = [
   },
   {
     id: 22,
-    adversario: "Bragantino",
+    adversario: "RB Bragantino",
     mandoDeCampo: "Casa",
     local: "Arena Corinthians, SP",
   },
@@ -188,7 +188,7 @@ export const segundo_turno_corinthians = [
     id: 31,
     adversario: "Cuiabá",
     mandoDeCampo: "Fora",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 32,

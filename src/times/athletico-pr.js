@@ -122,7 +122,7 @@ export const segundo_turno_athletico = [
     id: 20,
     adversario: "Cuiabá",
     mandoDeCampo: "Fora",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 21,

@@ -82,7 +82,7 @@ export const primeiro_turno_botafogo = [
     id: 14,
     adversario: "Cuiabá",
     mandoDeCampo: "Fora",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 15,

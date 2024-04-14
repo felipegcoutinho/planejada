@@ -10,7 +10,7 @@ export const primeiro_turno_vitoria = [
     id: 2,
     adversario: "Cuiabá",
     mandoDeCampo: "Fora",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 3,

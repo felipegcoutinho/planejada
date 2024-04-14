@@ -152,7 +152,7 @@ export const segundo_turno_criciuma = [
     id: 25,
     adversario: "Cuiabá",
     mandoDeCampo: "Fora",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 26,

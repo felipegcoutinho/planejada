@@ -10,7 +10,7 @@ export const primeiro_turno_cuiaba = [
     id: 2,
     adversario: "Vitória",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 3,
@@ -22,13 +22,13 @@ export const primeiro_turno_cuiaba = [
     id: 4,
     adversario: "Atlético-MG",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 5,
     adversario: "Palmeiras",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 6,
@@ -40,7 +40,7 @@ export const primeiro_turno_cuiaba = [
     id: 7,
     adversario: "Internacional",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 8,
@@ -52,7 +52,7 @@ export const primeiro_turno_cuiaba = [
     id: 9,
     adversario: "Fortaleza",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 10,
@@ -64,7 +64,7 @@ export const primeiro_turno_cuiaba = [
     id: 11,
     adversario: "Atlético-GO",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 12,
@@ -76,13 +76,13 @@ export const primeiro_turno_cuiaba = [
     id: 13,
     adversario: "RB Bragantino",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 14,
     adversario: "Botafogo",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 15,
@@ -94,7 +94,7 @@ export const primeiro_turno_cuiaba = [
     id: 16,
     adversario: "Juventude",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 17,
@@ -106,7 +106,7 @@ export const primeiro_turno_cuiaba = [
     id: 18,
     adversario: "Fluminense",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 19,
@@ -122,7 +122,7 @@ export const segundo_turno_cuiaba = [
     id: 20,
     adversario: "Athletico-PR",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 21,
@@ -134,7 +134,7 @@ export const segundo_turno_cuiaba = [
     id: 22,
     adversario: "Grêmio",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 23,
@@ -152,7 +152,7 @@ export const segundo_turno_cuiaba = [
     id: 25,
     adversario: "Criciúma",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 26,
@@ -164,7 +164,7 @@ export const segundo_turno_cuiaba = [
     id: 27,
     adversario: "Cruzeiro",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 28,
@@ -176,7 +176,7 @@ export const segundo_turno_cuiaba = [
     id: 29,
     adversario: "São Paulo",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 30,
@@ -188,7 +188,7 @@ export const segundo_turno_cuiaba = [
     id: 31,
     adversario: "Corinthians",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 32,
@@ -206,7 +206,7 @@ export const segundo_turno_cuiaba = [
     id: 34,
     adversario: "Flamengo",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 35,
@@ -218,7 +218,7 @@ export const segundo_turno_cuiaba = [
     id: 36,
     adversario: "Bahia",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 37,
@@ -230,6 +230,6 @@ export const segundo_turno_cuiaba = [
     id: 38,
     adversario: "Vasco",
     mandoDeCampo: "Casa",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
 ];

@@ -164,7 +164,7 @@ export const segundo_turno_cruzeiro = [
     id: 27,
     adversario: "Cuiabá",
     mandoDeCampo: "Fora",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 28,

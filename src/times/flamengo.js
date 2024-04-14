@@ -206,7 +206,7 @@ export const segundo_turno_flamengo = [
     id: 34,
     adversario: "Cuiabá",
     mandoDeCampo: "Fora",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 35,

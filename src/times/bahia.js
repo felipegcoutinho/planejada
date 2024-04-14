@@ -100,7 +100,7 @@ export const primeiro_turno_bahia = [
     id: 17,
     adversario: "Cuiabá",
     mandoDeCampo: "Fora",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 18,

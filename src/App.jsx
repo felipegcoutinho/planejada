@@ -1,6 +1,6 @@
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
-import { CircleCheck, CircleX, Equal, Home, Plane } from "lucide-react";
+import { CircleCheck, CircleX, Equal } from "lucide-react";
 import { useEffect, useState } from "react";
 import { serie_a } from "./competicoes/serie-a";
 import Header from "./components/Header";
@@ -112,41 +112,45 @@ function App() {
           </div>
         )}
       </div>
-      <div className="flex w-full max-sm:flex-col mt-10 gap-8">
-        <div className="w-1/2 max-sm:w-full">
+      <div className="flex w-full max-md:flex-col mt-10 gap-8">
+        <div className="w-1/2 max-md:w-full">
           {primeiroTurno && (
             <>
               <p className="font-bold text-xl">Primeiro Turno</p>
-              <div className="bg-zinc-600 text-white rounded-sm p-4 text-2xl">
-                <p className="border-b">
-                  Planejado: {Object.values(pontuacaoPlanejadoPrimeiroTurno).reduce((total, pontuacao) => total + pontuacao, 0)}
-                </p>
-                <p className="border-b">Efetivo: {Object.values(pontuacaoEfetivoPrimeiroTurno).reduce((total, pontuacao) => total + pontuacao, 0)}</p>
-                <p className="border-b">Aproveitamento: {calcularAproveitamento(pontuacaoPlanejadoPrimeiroTurno, pontuacaoEfetivoPrimeiroTurno)}</p>
+              <div className={`${renderColor(selectedTeam)} rounded-sm p-4 text-2xl flex justify-between`}>
+                <div className="flex flex-col">
+                  <p>Planejado</p>
+                  <p className="text-4xl">
+                    {Object.values(pontuacaoPlanejadoPrimeiroTurno).reduce((total, pontuacao) => total + pontuacao, 0)} pontos
+                  </p>
+                </div>
+                <div className="flex flex-col">
+                  <p>Efetivo </p>
+                  <p className="text-4xl">{Object.values(pontuacaoEfetivoPrimeiroTurno).reduce((total, pontuacao) => total + pontuacao, 0)} pontos</p>
+                </div>
+                <div className="flex flex-col">
+                  <p>Aproveitamento</p>
+                  <p className="text-4xl">{calcularAproveitamento(pontuacaoPlanejadoPrimeiroTurno, pontuacaoEfetivoPrimeiroTurno)}</p>
+                </div>
               </div>
 
               <Table className="border mt-2 whitespace-nowrap">
                 <TableHeader>
                   <TableRow>
                     <TableHead className="w-40">Adversário</TableHead>
-                    <TableHead>Mando</TableHead>
-                    <TableHead className="w-40">Estádio</TableHead>
-                    <TableHead>Planejado</TableHead>
-                    <TableHead>Efetivo</TableHead>
+                    <TableHead className="w-40 max-sm:pl-10">Estádio</TableHead>
+                    <TableHead className="max-sm:pl-4">Planejado</TableHead>
+                    <TableHead className="max-sm:pl-4">Efetivo</TableHead>
                   </TableRow>
                 </TableHeader>
                 <TableBody>
                   {primeiroTurno.map((item) => (
                     <TableRow key={item.id}>
-                      <TableCell className="flex font-bold gap-2 items-center text-xl">
+                      <TableCell className="flex font-bold gap-2 items-center text-xl max-sm:text-base">
                         {renderIcon(item.adversario)} {item.adversario}
                       </TableCell>
 
-                      <TableCell>
-                        {item.mandoDeCampo === "Casa" ? <Home className="text-slate-800" size="16" /> : <Plane className="text-black" size="16" />}
-                      </TableCell>
-
-                      <TableCell className="text-slate-400 text-base">{item.local}</TableCell>
+                      <TableCell className="text-slate-400 text-base max-sm:text-sm max-sm:pl-10">{item.local}</TableCell>
                       <TableCell>
                         <Select onValueChange={(value) => handleSelectPlanejado({ target: { value } }, item.id, "primeiro")}>
                           <SelectTrigger>
@@ -206,40 +210,44 @@ function App() {
             </>
           )}
         </div>
-        <div className="w-1/2 max-sm:w-full">
+        <div className="w-1/2 max-md:w-full">
           {segundoTurno && (
             <>
               <p className="font-bold text-xl">Segundo Turno</p>
-              <div className="bg-zinc-600 text-white rounded-sm p-4 text-2xl">
-                <p className="border-b">
-                  Planejado: {Object.values(pontuacaoPlanejadoSegundoTurno).reduce((total, pontuacao) => total + pontuacao, 0)}
-                </p>
-                <p className="border-b">Efetivo: {Object.values(pontuacaoEfetivoSegundoTurno).reduce((total, pontuacao) => total + pontuacao, 0)}</p>
-                <p className="border-b">Aproveitamento: {calcularAproveitamento(pontuacaoPlanejadoSegundoTurno, pontuacaoEfetivoSegundoTurno)}</p>
+              <div className={`${renderColor(selectedTeam)} rounded-sm p-4 text-2xl flex justify-between`}>
+                <div className="flex flex-col">
+                  <p>Planejado</p>
+                  <p className="text-4xl">
+                    {Object.values(pontuacaoPlanejadoSegundoTurno).reduce((total, pontuacao) => total + pontuacao, 0)} pontos
+                  </p>
+                </div>
+                <div className="flex flex-col">
+                  <p>Efetivo </p>
+                  <p className="text-4xl">{Object.values(pontuacaoEfetivoSegundoTurno).reduce((total, pontuacao) => total + pontuacao, 0)} pontos</p>
+                </div>
+                <div className="flex flex-col">
+                  <p>Aproveitamento</p>
+                  <p className="text-4xl">{calcularAproveitamento(pontuacaoPlanejadoSegundoTurno, pontuacaoEfetivoSegundoTurno)}</p>
+                </div>
               </div>
 
               <Table className="border mt-2">
                 <TableHeader>
                   <TableRow>
                     <TableHead className="w-40">Adversário</TableHead>
-                    <TableHead>Mando</TableHead>
-                    <TableHead className="w-40">Estádio</TableHead>
-                    <TableHead>Planejado</TableHead>
-                    <TableHead>Efetivo</TableHead>
+                    <TableHead className="w-40 max-sm:pl-10">Estádio</TableHead>
+                    <TableHead className="max-sm:pl-10">Planejado</TableHead>
+                    <TableHead className="max-sm:pl-10">Efetivo</TableHead>
                   </TableRow>
                 </TableHeader>
                 <TableBody>
                   {segundoTurno.map((item) => (
                     <TableRow key={item.id}>
-                      <TableCell className="flex font-bold gap-2 items-center text-xl">
+                      <TableCell className="flex font-bold gap-2 items-center text-xl max-sm:text-base">
                         {renderIcon(item.adversario)} {item.adversario}
                       </TableCell>
 
-                      <TableCell>
-                        {item.mandoDeCampo === "Casa" ? <Home className="text-slate-800" size="16" /> : <Plane className="text-black" size="16" />}
-                      </TableCell>
-
-                      <TableCell className="text-slate-400 text-base">{item.local}</TableCell>
+                      <TableCell className="text-slate-400 text-base max-sm:text-sm max-sm:pl-10">{item.local}</TableCell>
                       <TableCell>
                         <Select onValueChange={(value) => handleSelectPlanejado({ target: { value } }, item.id, "primeiro")}>
                           <SelectTrigger>

@@ -94,7 +94,7 @@ export const primeiro_turno_juventude = [
     id: 16,
     adversario: "Cuiabá",
     mandoDeCampo: "Fora",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 17,

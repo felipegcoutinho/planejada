@@ -52,7 +52,7 @@ export const primeiro_turno_fortaleza = [
     id: 9,
     adversario: "Cuiabá",
     mandoDeCampo: "Fora",
-    local: "Arena Pantana, MT",
+    local: "Arena Pantanal, MT",
   },
   {
     id: 10,
