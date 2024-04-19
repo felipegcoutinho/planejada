@@ -1,3 +1,5 @@
+## [PROJETO EM ANDAMENTO] ⚠️
+
 # Brasileirão 2024 - Planejador de Partidas
 
 Bem-vindo ao Planejador de Partidas do Brasileirão 2024! Este projeto foi desenvolvido para ajudar os fãs de futebol a planejarem e palpitar sobre as próximas partidas do Campeonato Brasileiro de 2024.
