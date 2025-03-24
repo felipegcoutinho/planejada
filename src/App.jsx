@@ -93,7 +93,7 @@ function App() {
         >
           <div className="flex flex-col">
             <p>Planejado</p>
-            <p className="text-4xl">
+            <p className="text-2xl">
               {Object.values(pontuacoes[turno] || {}).reduce(
                 (acc, cur) => acc + (cur.planejado || 0),
                 0
@@ -103,7 +103,7 @@ function App() {
           </div>
           <div className="flex flex-col">
             <p>Efetivo </p>
-            <p className="text-4xl">
+            <p className="text-2xl">
               {Object.values(pontuacoes[turno] || {}).reduce(
                 (acc, cur) => acc + (cur.efetivo || 0),
                 0
@@ -113,7 +113,7 @@ function App() {
           </div>
           <div className="flex flex-col">
             <p>Aproveitamento</p>
-            <p className="text-4xl">{calcularAproveitamento(turno)}</p>
+            <p className="text-2xl">{calcularAproveitamento(turno)}</p>
           </div>
         </div>
 
@@ -187,11 +187,11 @@ function App() {
   };
 
   return (
-    <main className="max-w-screen-xl mx-auto p-4">
+    <main className="max-w-(--breakpoint-xl) mx-auto p-4">
       <div className="w-full mx-auto">
         <Header />
         <div className="flex my-4">
-          <h2 className="text-4xl font-bold">Escolha seu time</h2>
+          <h2 className="text-2xl font-bold">Escolha seu time</h2>
           <Button
             variant={"outline"}
             onClick={handleClearSelection}
